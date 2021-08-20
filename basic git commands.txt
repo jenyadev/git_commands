@@ -1,0 +1,54 @@
+basic git commands: 
+git config –global user.name “John Doe”
+git config –global user.email johndoe@example.com
+git config -l
+git init
+git status
+git add .
+git commit -m “my first commit”
+git log
+git log –oneline
+bash commands:
+echo hello > file1.txt
+cat file1.txt
+ls
+ll
+
+git rm ==> instead of: rm + git add
+git mv ==> instead of: mv + git add
+git commit -am ==> add + commit
+git rm –cached ==> remove from stage
+.gitignore file
+git commands:
+git config –global core.editor “code –wait”
+git config –gloabl -e
+git log –oneline
+git ls-tree –full-tree -r –name-only HEAD
+git ls-files –stage
+git status -s
+git rm
+git rm –cached -r …
+git mv
+git commit -am “commit without stage”
+git log –oneline
+bash commands:
+clear
+history
+history | cut -c 8- > 1.txt
+
+
+git diff
+git diff –staged
+git difftool
+git difftool
+git difftool –staged
+git log –online –reversed
+git diff <id1> <id2>
+git difftool <id1> <id2>
+git show <id>
+git show HEAD~1
+git show HEAD~1:file1.txt
+git ls-tree HEAD~1
+git stash save
+git stash list
+git stash pop
